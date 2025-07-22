@@ -1,4 +1,4 @@
- engine from 'engine';
+import engine from 'engine';
 
 export default class Player {
   private sprite: engine.Sprite;
