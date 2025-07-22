@@ -1,4 +1,4 @@
- * as UE from 'ue';
+import  * as UE from 'ue';
 export class EnemyAI extends UE.AIController {
     private patrolPoints: UE.Vector[] = [];
     private currentPatrolIndex = 0;
